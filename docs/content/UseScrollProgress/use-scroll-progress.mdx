@@ -1,0 +1,32 @@
+---
+name: use-scroll-progress
+route: /use-scroll-progress
+---
+
+import { Playground } from "docz";
+import ScrollProgress from "./use-scroll-progress";
+
+# use-scroll-progress
+
+Hook Description
+
+<Playground>
+  <ScrollProgress />
+</Playground>
+
+```jsx
+import React from "react";
+import { useScrollProgress } from "@jam3/react-hooks";
+
+const ScrollProgress = () => {
+  const scrollProgress = useScrollProgress();
+
+  return (
+    <>
+      <div className="scroll" style={{ width: `${scrollProgress}%` }}></div>
+      <div>{scrollProgress}</div>
+    </>
+  );
+};
+export default ScrollProgress;
+```

@@ -13,16 +13,17 @@ npm install --save jam3-hooks
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { useRef } from "react";
 
-import { useMyHook } from 'jam3-hooks'
+import { useIntersectionObserver } from "@jam3/jam3-hooks";
 
 const Example = () => {
-  const example = useMyHook()
-  return (
-    <div>{example}</div>
-  )
-}
+  const containerRef = useRef();
+
+  useIntersectionObserver(containerRef);
+
+  return <div ref={containerRef}>{example}</div>;
+};
 ```
 
 ## License

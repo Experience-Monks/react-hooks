@@ -1,0 +1,48 @@
+---
+name: Getting Started
+route: /
+---
+
+# What's this
+
+Collection of hooks that we re-use at Jam3
+
+# Why?
+
+Since the React landscape is changing with the introduction of hooks
+and the "deprecation" of classes is useful for us to keep a collection
+of hooks so we can share functionality between projects.
+
+You could face 3 cases
+
+1. The functionality that you need is already here so just `npm install`
+2. There is some missing functionality so you want to make the hook
+   dynamic to multiple cases well open a PR
+3. Your use case is too specific, just copy and paste the hook and adapt it these way at least you're not starting from 0 and with best practices
+
+# Installation
+
+```bash
+npm i @jam3/react-hooks
+```
+
+```jsx
+// Import depending what you need it will tree-shake the modules
+import { useIntersectionObserver } from "@jam3/react-hooks";
+import { useMousePosition } from "@jam3/react-hooks";
+import { useScrollDirection } from "@jam3/react-hooks";
+import { useScrollProgress } from "@jam3/react-hooks";
+import { useScrollToTop } from "@jam3/react-hooks";
+import { useWindowSize } from "@jam3/react-hooks";
+```
+
+# Contribution Guide
+
+Add detailed steps and improve the workflow to make it easy
+
+```bash
+git clone <repo>
+npm install && npm start;
+cd example && npm install && npm start
+cd example && npm start-docz
+```

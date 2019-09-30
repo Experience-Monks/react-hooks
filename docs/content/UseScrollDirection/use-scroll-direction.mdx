@@ -1,0 +1,27 @@
+---
+name: use-scroll-direction
+route: /use-scroll-direction
+---
+
+import { Playground } from "docz";
+import ScrollDirection from "./use-scroll-direction";
+
+# use-scroll-direction
+
+Hook Description
+
+<Playground style={{ height: "1000px" }}>
+  <ScrollDirection />
+</Playground>
+
+```jsx
+import React from "react";
+import { useScrollDirection } from "@jam3/react-hooks";
+
+const ScrollDirection = () => {
+  const scrollingDir = useScrollDirection();
+
+  return <div>Is scrolling (direction): {scrollingDir}</div>;
+};
+export default ScrollDirection;
+```
