@@ -1,5 +1,5 @@
 import React from 'react';
-import { useWindowSize } from '@jam3/react-hooks';
+import { useWindowSize } from 'jam3-hooks';
 
 const WindowSize = () => {
   const { innerWidth, innerHeight } = useWindowSize(100)

@@ -8,6 +8,6 @@
     "docz": "^2.0.0-rc.44",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "@jam3/react-hooks": "file:.."
+    "jam3-hooks": "file:.."
   }
 }

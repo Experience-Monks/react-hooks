@@ -1,5 +1,5 @@
 import React from 'react';
-import { useScrollDirection } from '@jam3/react-hooks';
+import { useScrollDirection } from 'jam3-hooks';
 
 const directions = {
   up: 'up 👆',

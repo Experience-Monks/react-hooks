@@ -1,5 +1,5 @@
 import React from 'react';
-import { useScrollProgress } from '@jam3/react-hooks';
+import { useScrollProgress } from 'jam3-hooks';
 
 const ScrollProgress = () => {
   const scrollProgress = useScrollProgress()

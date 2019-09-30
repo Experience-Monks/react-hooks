@@ -1,5 +1,5 @@
 import React from 'react';
-import { useMousePosition } from '@jam3/react-hooks';
+import { useMousePosition } from 'jam3-hooks';
 
 const MousePosition = () => {
   const { x, y } = useMousePosition()

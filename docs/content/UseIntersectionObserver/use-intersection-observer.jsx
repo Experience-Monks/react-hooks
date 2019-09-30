@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { useIntersectionObserver } from "@jam3/react-hooks";
+import { useIntersectionObserver } from "jam3-hooks";
 
 const IntersectionObserver = () => {
   const containerRef = useRef(null);
