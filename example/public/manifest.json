@@ -1,0 +1,8 @@
+{
+  "short_name": "jam3-hooks",
+  "name": "jam3-hooks",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
