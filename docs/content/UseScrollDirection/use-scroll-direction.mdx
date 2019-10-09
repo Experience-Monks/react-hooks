@@ -8,7 +8,22 @@ import ScrollDirection from "./use-scroll-direction";
 
 # use-scroll-direction
 
-Hook Description
+**Description**
+
+Detects scroll direction
+
+**Props**
+
+- Debounce (ms)
+
+**Returns**
+
+- One of these ('top' | 'up' | 'down')
+
+```js
+const scrollingDir = useScrollDirection(debounce);
+// returns ('top' | 'up' | 'down') scroll direction
+```
 
 <Playground style={{ height: "1000px" }}>
   <ScrollDirection />

@@ -8,7 +8,27 @@ import OnHover from "./use-on-hover";
 
 # use-on-hover
 
-Hook Description
+**Description**
+
+Detects when an element is being hovered, and also takes two callbacks for when is in or out
+
+**Props**
+
+- domRef: DOM Reference
+- inCallback: Function to be call when hovering in
+- outCallback: Function to be call when hovering out
+
+```js
+useOnHover(domRef, inCallback, outCallback);
+
+function inCallback() {
+  // do something here when hovering in
+}
+
+function outCallback() {
+  // do something here when hovering out
+}
+```
 
 <Playground>
   <OnHover />

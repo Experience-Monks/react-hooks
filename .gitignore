@@ -3,12 +3,12 @@
 
 # dependencies
 node_modules
-.docz
 
 # builds
 build
 dist
 .rpt2_cache
+.docz
 
 # misc
 .DS_Store

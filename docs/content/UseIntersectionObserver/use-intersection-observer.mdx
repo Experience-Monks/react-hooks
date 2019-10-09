@@ -8,7 +8,26 @@ import IntersectionObserver from "./use-intersection-observer";
 
 # use-intersection-observer
 
-Hook Description
+**Description**
+
+Detects when a dom element is being intersected
+
+**Props**
+
+- domRef: DOM Reference
+- options {}: Extra options for the intersection hooks
+  - rootMargin
+  - triggerOnce
+  - threshold
+
+**Returns**
+
+- Boolean (true | false) when the element is intersected
+
+```js
+const isIntersecting = useIntersectionObserver(domRef, { rootMargin: "-200px", triggerOnce: false });
+// returns (true | false) when the element is intersected
+```
 
 <Playground>
   <IntersectionObserver />
@@ -28,7 +47,6 @@ const IntersectionObserver = () => {
   return (
     <>
       <div>White Space</div>
-
       <span>Watching intersect using -200px of rootMargin</span>
       <span>Triggering multiple times</span>
       <div ref={containerRef2}>{isIntersecting2 ? "Intersected" : "Not Yet"}</div>

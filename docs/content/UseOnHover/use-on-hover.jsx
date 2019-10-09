@@ -1,4 +1,4 @@
-import React, { useRef, useCallback } from "react";
+import React, { useRef } from "react";
 import { useOnHover } from "@jam3/react-hooks";
 
 const OnHover = () => {
