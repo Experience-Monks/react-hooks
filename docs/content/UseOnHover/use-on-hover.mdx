@@ -1,0 +1,34 @@
+---
+name: use-on-hover
+route: /use-on-hover
+---
+
+import { Playground } from "docz";
+import OnHover from "./use-on-hover";
+
+# use-on-hover
+
+Hook Description
+
+<Playground>
+  <OnHover />
+</Playground>
+
+```jsx
+import React, { useRef } from "react";
+import { useOnHover } from "@jam3/react-hooks";
+
+const YourComponent = () => {
+  useOnHover(hoverRef, onHoverIn, onHoverOut);
+
+  function onHoverIn() {
+    hoverRef.current.style.backgroundColor = "green";
+  }
+
+  function onHoverOut() {
+    hoverRef.current.style.backgroundColor = "red";
+  }
+
+  return <div ref={hoverRef}>Hover me</div>;
+};
+```

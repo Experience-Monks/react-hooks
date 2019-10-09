@@ -1,0 +1,41 @@
+---
+name: use-scroll-to-top
+route: /use-scroll-to-top
+---
+
+# use-scroll-to-top
+
+Description
+
+Our hook
+
+```jsx
+import React from "react";
+import { useScrollToTop } from "@jam3/react-hooks";
+
+const ScrollToTop = () => {
+  useScrollToTop();
+
+  useEffect(() => {
+    // your stuff
+  }, []);
+};
+```
+
+If you need a react-router scroll restoration just do it like this
+
+[Reference](https://github.com/ReactTraining/react-router/blob/master/packages/react-router-dom/docs/guides/scroll-restoration.md)
+
+```jsx
+import React from "react";
+
+const ScrollToTop = ({ children, location: { pathname } }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return children || null;
+};
+
+export default withRouter(ScrollToTop);
+```

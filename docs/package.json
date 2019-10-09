@@ -1,0 +1,15 @@
+{
+  "name": "@jam3/react-hooks-docz",
+  "scripts": {
+    "docz:dev": "docz dev",
+    "docz:build": "docz build",
+    "start": "npm run docz:dev",
+    "build": "npm run docz:build"
+  },
+  "devDependencies": {
+    "docz": "^2.0.0-rc.44",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "@jam3/react-hooks": "file:.."
+  }
+}

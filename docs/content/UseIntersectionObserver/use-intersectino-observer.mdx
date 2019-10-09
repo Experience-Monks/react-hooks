@@ -1,0 +1,43 @@
+---
+name: use-intersection-observer
+route: /use-intersection-observer
+---
+
+import { Playground } from "docz";
+import IntersectionObserver from "./use-intersection-observer";
+
+# use-intersection-observer
+
+Hook Description
+
+<Playground>
+  <IntersectionObserver />
+</Playground>
+
+```jsx
+import React, { useRef } from "react";
+import { useIntersectionObserver } from "@jam3/react-hooks";
+
+const IntersectionObserver = () => {
+  const containerRef = useRef(null);
+  const isIntersecting = useIntersectionObserver(containerRef, { rootMargin: "-200px" });
+
+  const containerRef2 = useRef(null);
+  const isIntersecting2 = useIntersectionObserver(containerRef, { rootMargin: "-200px", triggerOnce: false });
+
+  return (
+    <>
+      <div>White Space</div>
+
+      <span>Watching intersect using -200px of rootMargin</span>
+      <span>Triggering multiple times</span>
+      <div ref={containerRef2}>{isIntersecting2 ? "Intersected" : "Not Yet"}</div>
+
+      <span>Watching intersect using -200px of rootMargin</span>
+      <span>Triggering once</span>
+      <div ref={containerRef}>{isIntersecting ? "Intersected" : "Not Yet"}</div>
+    </>
+  );
+};
+export default IntersectionObserver;
+```

@@ -1,0 +1,33 @@
+---
+name: use-window-size
+route: /use-window-size
+---
+
+import { Playground } from "docz";
+import WindowSize from "./use-window-size";
+
+# use-window-size
+
+Hook Description
+
+<Playground>
+  <WindowSize />
+</Playground>
+
+```jsx
+import React from "react";
+import { useWindowSize } from "@jam3/react-hooks";
+
+const WindowSize = () => {
+  const { innerWidth, innerHeight } = useWindowSize(100);
+
+  return (
+    <div>
+      window width: {innerWidth}
+      <br />
+      window height: {innerHeight}
+    </div>
+  );
+};
+export default WindowSize;
+```
