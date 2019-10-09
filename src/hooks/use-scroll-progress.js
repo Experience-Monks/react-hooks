@@ -1,22 +1,22 @@
-import { useEffect, useState } from 'react';
-import { isBrowser } from '../util';
+import { useEffect, useState } from "react";
+import { isBrowser } from "../util";
 
 const useScrollProgress = () => {
-  const [progress, setProgress] = useState(0)
+  const [progress, setProgress] = useState(0);
 
   useEffect(() => {
     const updateHeight = () => {
-      const math = (100 * window.scrollY) / (document.documentElement.scrollHeight - window.innerHeight)
-      setProgress(math.toFixed(0))
+      const math = (100 * window.scrollY) / (document.documentElement.scrollHeight - window.innerHeight);
+      setProgress(math.toFixed(0));
     };
 
-    isBrowser && window.addEventListener('scroll', updateHeight)
+    isBrowser && window.addEventListener("scroll", updateHeight);
     return () => {
-      isBrowser && window.removeEventListener('scroll', updateHeight)
+      isBrowser && window.removeEventListener("scroll", updateHeight);
     };
-  }, [setProgress])
+  }, [setProgress]);
 
-  return progress
+  return progress;
 };
 
-export default useScrollProgress
+export default useScrollProgress;

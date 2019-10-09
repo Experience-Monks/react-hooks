@@ -3,6 +3,7 @@
 
 # dependencies
 node_modules
+.docz
 
 # builds
 build
@@ -20,3 +21,6 @@ dist
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Local Netlify folder
+.netlify

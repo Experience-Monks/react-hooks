@@ -20,29 +20,32 @@ You could face 3 cases
    dynamic to multiple cases well open a PR
 3. Your use case is too specific, just copy and paste the hook and adapt it these way at least you're not starting from 0 and with best practices
 
-# Installation
+## Install
 
 ```bash
-npm i jam3-hooks
+npm install @jam3/react-hooks
+yarn add @jam3/react-hooks
 ```
+
+## Usage
 
 ```jsx
 // Import depending what you need it will tree-shake the modules
-import { useIntersectionObserver } from "jam3-hooks";
-import { useMousePosition } from "jam3-hooks";
-import { useScrollDirection } from "jam3-hooks";
-import { useScrollProgress } from "jam3-hooks";
-import { useScrollToTop } from "jam3-hooks";
-import { useWindowSize } from "jam3-hooks";
+import { useIntersectionObserver } from "@jam3/react-hooks";
+import { useMousePosition } from "@jam3/react-hooks";
+import { useOnHover } from "@jam3/react-hooks";
+import { useScrollDirection } from "@jam3/react-hooks";
+import { useScrollProgress } from "@jam3/react-hooks";
+import { useScrollToTop } from "@jam3/react-hooks";
+import { useWindowSize } from "@jam3/react-hooks";
 ```
 
-# Contribution Guide
+For more information, please refer to [Usage](https://jam3-react-hooks.netlify.com) in our documentation.
 
-Add detailed steps and improve the workflow to make it easy
+## Contributing
 
-```bash
-git clone <repo>
-npm install && npm start;
-cd example && npm install && npm start
-cd example && npm start-docz
-```
+Please make sure to read the [contributing guide](CONTRIBUTING.md) before making a pull request.
+
+## Changelog
+
+Detailed changes for each release are documented in the [release notes](CHANGELOG.md).

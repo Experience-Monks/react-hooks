@@ -1,6 +1,6 @@
 {
   "config": {
-    "title": "Jam3 Hooks Docz",
+    "title": "React Hooks Docz",
     "description": "My awesome app using docz",
     "menu": [],
     "repository": null,
@@ -10,13 +10,13 @@
   },
   "entries": [
     {
-      "key": "content/intro.mdx",
+      "key": "content/Intro.mdx",
       "value": {
         "name": "Getting Started",
         "route": "/",
-        "id": "f1c572a6bdfdd641ddb5afd733d850b3",
-        "filepath": "content/intro.mdx",
-        "fullpath": "/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/content/intro.mdx",
+        "id": "4d32608decfad0af65822addf8ce6bd8",
+        "filepath": "content/Intro.mdx",
+        "fullpath": "/Users/alejandromesasuarez/Winterfell/react-hooks/docs/content/Intro.mdx",
         "link": "",
         "slug": "content-intro",
         "menu": "",
@@ -32,14 +32,24 @@
             "value": "Why?"
           },
           {
-            "slug": "installation",
-            "depth": 1,
-            "value": "Installation"
+            "slug": "install",
+            "depth": 2,
+            "value": "Install"
           },
           {
-            "slug": "contribution-guide",
-            "depth": 1,
-            "value": "Contribution Guide"
+            "slug": "usage",
+            "depth": 2,
+            "value": "Usage"
+          },
+          {
+            "slug": "contributing",
+            "depth": 2,
+            "value": "Contributing"
+          },
+          {
+            "slug": "changelog",
+            "depth": 2,
+            "value": "Changelog"
           }
         ]
       }
@@ -51,7 +61,7 @@
         "route": "/use-scroll-to-top",
         "id": "6e14deff9bcf0ca5a1606af6a4b1cfd7",
         "filepath": "content/use-scroll-to-top.mdx",
-        "fullpath": "/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/content/use-scroll-to-top.mdx",
+        "fullpath": "/Users/alejandromesasuarez/Winterfell/react-hooks/docs/content/use-scroll-to-top.mdx",
         "link": "",
         "slug": "content-use-scroll-to-top",
         "menu": "",
@@ -71,7 +81,7 @@
         "route": "/use-intersection-observer",
         "id": "0c703798fbb9845f9351d35e0f2f2cf8",
         "filepath": "content/UseIntersectionObserver/use-intersectino-observer.mdx",
-        "fullpath": "/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/content/UseIntersectionObserver/use-intersectino-observer.mdx",
+        "fullpath": "/Users/alejandromesasuarez/Winterfell/react-hooks/docs/content/UseIntersectionObserver/use-intersectino-observer.mdx",
         "link": "",
         "slug": "content-use-intersection-observer-use-intersectino-observer",
         "menu": "",
@@ -91,7 +101,7 @@
         "route": "/use-mouse-position",
         "id": "0df75c85a081a23813b47a27ca981b43",
         "filepath": "content/UseMousePosition/use-mouse-position.mdx",
-        "fullpath": "/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/content/UseMousePosition/use-mouse-position.mdx",
+        "fullpath": "/Users/alejandromesasuarez/Winterfell/react-hooks/docs/content/UseMousePosition/use-mouse-position.mdx",
         "link": "",
         "slug": "content-use-mouse-position-use-mouse-position",
         "menu": "",
@@ -105,13 +115,33 @@
       }
     },
     {
+      "key": "content/UseOnHover/use-on-hover.mdx",
+      "value": {
+        "name": "use-on-hover",
+        "route": "/use-on-hover",
+        "id": "65887b43f598e0cb950e5a0503d68598",
+        "filepath": "content/UseOnHover/use-on-hover.mdx",
+        "fullpath": "/Users/alejandromesasuarez/Winterfell/react-hooks/docs/content/UseOnHover/use-on-hover.mdx",
+        "link": "",
+        "slug": "content-use-on-hover-use-on-hover",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "use-on-hover",
+            "depth": 1,
+            "value": "use-on-hover"
+          }
+        ]
+      }
+    },
+    {
       "key": "content/UseScrollDirection/use-scroll-direction.mdx",
       "value": {
         "name": "use-scroll-direction",
         "route": "/use-scroll-direction",
         "id": "5f48858efb6de990d5cef9d0383b8b6c",
         "filepath": "content/UseScrollDirection/use-scroll-direction.mdx",
-        "fullpath": "/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/content/UseScrollDirection/use-scroll-direction.mdx",
+        "fullpath": "/Users/alejandromesasuarez/Winterfell/react-hooks/docs/content/UseScrollDirection/use-scroll-direction.mdx",
         "link": "",
         "slug": "content-use-scroll-direction-use-scroll-direction",
         "menu": "",
@@ -131,7 +161,7 @@
         "route": "/use-scroll-progress",
         "id": "584511e544f04c2b24f77c947b7328ba",
         "filepath": "content/UseScrollProgress/use-scroll-progress.mdx",
-        "fullpath": "/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/content/UseScrollProgress/use-scroll-progress.mdx",
+        "fullpath": "/Users/alejandromesasuarez/Winterfell/react-hooks/docs/content/UseScrollProgress/use-scroll-progress.mdx",
         "link": "",
         "slug": "content-use-scroll-progress-use-scroll-progress",
         "menu": "",
@@ -151,7 +181,7 @@
         "route": "/use-window-size",
         "id": "55e625e1350fa5fab834954150d01c5b",
         "filepath": "content/UseWindowSize/use-window-size.mdx",
-        "fullpath": "/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/content/UseWindowSize/use-window-size.mdx",
+        "fullpath": "/Users/alejandromesasuarez/Winterfell/react-hooks/docs/content/UseWindowSize/use-window-size.mdx",
         "link": "",
         "slug": "content-use-window-size-use-window-size",
         "menu": "",
@@ -165,17 +195,5 @@
       }
     }
   ],
-  "props": [
-    {
-      "key": "content/UseIntersectionObserver/use-intersection-observer.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "IntersectionObserver",
-          "methods": [],
-          "actualName": "IntersectionObserver"
-        }
-      ]
-    }
-  ]
+  "props": []
 }

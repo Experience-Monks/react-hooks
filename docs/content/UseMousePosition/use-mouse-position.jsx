@@ -1,8 +1,8 @@
-import React from 'react';
-import { useMousePosition } from 'jam3-hooks';
+import React from "react";
+import { useMousePosition } from "@jam3/react-hooks";
 
 const MousePosition = () => {
-  const { x, y } = useMousePosition()
+  const { x, y } = useMousePosition();
 
   return (
     <div>
@@ -10,6 +10,6 @@ const MousePosition = () => {
       <br />
       Mouse position y: {y}
     </div>
-  )
+  );
 };
-export default MousePosition
+export default MousePosition;

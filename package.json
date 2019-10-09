@@ -1,13 +1,14 @@
 {
-  "name": "jam3-hooks",
-  "version": "1.0.0",
-  "description": "Collection of useful React Hooks",
-  "author": "jam3",
+  "name": "@jam3/react-hooks",
+  "version": "1.0.4",
+  "description": "Collection of useful hooks",
+  "author": "Jam3",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jam3/jam3-hooks.git"
+    "url": "git+https://github.com/Jam3/react-hooks.git"
   },
+  "keywords": [],
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -16,12 +17,11 @@
     "npm": ">=5"
   },
   "scripts": {
-    "test": "cross-env CI=1 react-scripts test --env=jsdom --passWithNoTests",
-    "test:watch": "react-scripts test --env=jsdom",
     "build": "rollup -c",
     "start": "rollup -c -w",
     "prepare": "npm run build",
-    "build-docs": "cd docs && npm run docz:build"
+    "build-docs": "npm install && cd docs && npm install && npm run docz:build",
+    "deploy": "npm run build-docs"
   },
   "dependencies": {
     "use-debounce": "^2.0.0"
@@ -52,16 +52,12 @@
     "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.1",
     "cross-env": "^5.2.0",
-    "eslint": "5.16.0",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-config-standard-react": "^6.0.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-promise": "^4.0.0",
-    "eslint-plugin-react": "^7.10.0",
-    "eslint-plugin-standard": "^3.1.0",
-    "gh-pages": "^2.0.1",
-    "react": "^16.8.6",
+    "gh-pages": "^2.1.1",
+    "netlify-cli": "^2.16.0",
+    "np": "^5.1.0",
+    "npm-run-all": "^4.1.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
     "react-scripts": "^3.0.1",
     "rollup": "^1.1.2",
     "rollup-plugin-babel": "^4.3.2",
@@ -71,11 +67,11 @@
     "rollup-plugin-url": "^2.1.0"
   },
   "bugs": {
-    "url": "https://github.com/jam3/jam3-hooks/issues"
+    "url": "https://github.com/Jam3/react-hooks/issues"
   },
-  "homepage": "https://github.com/jam3/jam3-hooks#readme",
+  "homepage": "https://github.com/Jam3/react-hooks#readme",
   "directories": {
-    "docs": "docs"
-  },
-  "keywords": []
+    "docs": "docs",
+    "playground": "playground"
+  }
 }

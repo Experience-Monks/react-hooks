@@ -1,19 +1,19 @@
-import { useEffect, useState } from 'react';
-import { isBrowser } from '../util';
+import { useEffect, useState } from "react";
+import { isBrowser } from "../util";
 
 const useMousePosition = () => {
-  const [position, setPosition] = useState({ x: 0, y: 0 })
+  const [position, setPosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
-    const setFromEvent = e => setPosition({ x: e.clientX, y: e.clientY })
-    isBrowser && window.addEventListener('mousemove', setFromEvent)
+    const setFromEvent = e => setPosition({ x: e.clientX, y: e.clientY });
+    isBrowser && window.addEventListener("mousemove", setFromEvent);
 
     return () => {
-      isBrowser && window.removeEventListener('mousemove', setFromEvent)
+      isBrowser && window.removeEventListener("mousemove", setFromEvent);
     };
-  }, [setPosition])
+  }, [setPosition]);
 
-  return position
+  return position;
 };
 
-export default useMousePosition
+export default useMousePosition;

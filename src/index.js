@@ -2,6 +2,8 @@ export { default as useIntersectionObserver } from "./hooks/use-intersection-obs
 
 export { default as useMousePosition } from "./hooks/use-mouse-position";
 
+export { default as useOnHover } from "./hooks/use-on-hover";
+
 export { default as useScrollDirection } from "./hooks/use-scroll-direction";
 
 export { default as useScrollProgress } from "./hooks/use-scroll-progress";

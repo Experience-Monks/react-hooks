@@ -9,16 +9,16 @@
         {
           "name": "babel-plugin-export-metadata",
           "options": {
-            "root": "/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs"
+            "root": "/Users/alejandromesasuarez/Winterfell/react-hooks/docs"
           }
         }
       ],
       "presets": [
         {
-          "name": "/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "name": "/Users/alejandromesasuarez/Winterfell/react-hooks/docs/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
-            "sourceMap": false,
-            "autoLabel": false,
+            "sourceMap": true,
+            "autoLabel": true,
             "plugins": []
           }
         }
@@ -37,16 +37,16 @@
         {
           "name": "babel-plugin-export-metadata",
           "options": {
-            "root": "/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs"
+            "root": "/Users/alejandromesasuarez/Winterfell/react-hooks/docs"
           }
         }
       ],
       "presets": [
         {
-          "name": "/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "name": "/Users/alejandromesasuarez/Winterfell/react-hooks/docs/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
-            "sourceMap": false,
-            "autoLabel": false,
+            "sourceMap": true,
+            "autoLabel": true,
             "plugins": []
           }
         }
@@ -65,16 +65,16 @@
         {
           "name": "babel-plugin-export-metadata",
           "options": {
-            "root": "/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs"
+            "root": "/Users/alejandromesasuarez/Winterfell/react-hooks/docs"
           }
         }
       ],
       "presets": [
         {
-          "name": "/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "name": "/Users/alejandromesasuarez/Winterfell/react-hooks/docs/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
-            "sourceMap": false,
-            "autoLabel": false,
+            "sourceMap": true,
+            "autoLabel": true,
             "plugins": []
           }
         }
@@ -93,16 +93,16 @@
         {
           "name": "babel-plugin-export-metadata",
           "options": {
-            "root": "/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs"
+            "root": "/Users/alejandromesasuarez/Winterfell/react-hooks/docs"
           }
         }
       ],
       "presets": [
         {
-          "name": "/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "name": "/Users/alejandromesasuarez/Winterfell/react-hooks/docs/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
-            "sourceMap": false,
-            "autoLabel": false,
+            "sourceMap": true,
+            "autoLabel": true,
             "plugins": []
           }
         }

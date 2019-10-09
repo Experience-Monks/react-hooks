@@ -1,8 +1,8 @@
 var plugins = [{
-      plugin: require('/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
-      options: {"plugins":[],"extensions":[".md",".mdx"],"remarkPlugins":[[null,{"type":"yaml","marker":"-"}],null],"rehypePlugins":[null,null],"gatsbyRemarkPlugins":[],"defaultLayouts":{"default":"/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/node_modules/gatsby-theme-docz/src/base/Layout.js"}},
+      plugin: require('/Users/alejandromesasuarez/Winterfell/react-hooks/docs/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
+      options: {"plugins":[],"extensions":[".md",".mdx"],"remarkPlugins":[[null,{"type":"yaml","marker":"-"}],null],"rehypePlugins":[null,null],"gatsbyRemarkPlugins":[],"defaultLayouts":{"default":"/Users/alejandromesasuarez/Winterfell/react-hooks/docs/node_modules/gatsby-theme-docz/src/base/Layout.js"}},
     },{
-      plugin: require('/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/alejandromesasuarez/Winterfell/react-hooks/docs/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

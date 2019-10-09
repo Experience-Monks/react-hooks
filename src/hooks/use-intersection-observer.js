@@ -6,9 +6,6 @@ const INTERSECTION_OBSERVER_CONFIG = {
   rootMargin: "0px"
 };
 
-/**
- * React hook that return is the object is intersected
- */
 function useIntersectionObserver(ref, config = {}, rootRef = null) {
   const [isIntersecting, setIntersecting] = useState(false);
 

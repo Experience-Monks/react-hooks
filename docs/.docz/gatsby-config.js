@@ -11,7 +11,7 @@ const config = {
   pathPrefix: '/',
 
   siteMetadata: {
-    title: 'Jam3 Hooks Docz',
+    title: 'React Hooks Docz',
     description: 'My awesome app using docz',
   },
   plugins: [
@@ -35,8 +35,7 @@ const config = {
         o: false,
         open: false,
         'open-browser': false,
-        root:
-          '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/.docz',
+        root: '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/.docz',
         base: '/',
         source: './',
         src: './',
@@ -48,52 +47,51 @@ const config = {
         eb: 'master',
         'edit-branch': 'master',
         config: '',
-        title: 'Jam3 Hooks Docz',
+        title: 'React Hooks Docz',
         description: 'My awesome app using docz',
         host: 'localhost',
-        port: 3000,
+        port: 3001,
         p: 3000,
         separator: '-',
         paths: {
-          root: '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs',
+          root: '/Users/alejandromesasuarez/Winterfell/react-hooks/docs',
           templates:
-            '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/node_modules/docz-core/dist/templates',
+            '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/node_modules/docz-core/dist/templates',
           packageJson:
-            '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/package.json',
-          docz:
-            '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/.docz',
+            '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/package.json',
+          docz: '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/.docz',
           cache:
-            '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/.docz/.cache',
+            '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/.docz/.cache',
           app:
-            '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/.docz/app',
+            '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/.docz/app',
           appPublic:
-            '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/.docz/public',
+            '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/.docz/public',
           appNodeModules:
-            '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/node_modules',
+            '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/node_modules',
           appPackageJson:
-            '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/package.json',
+            '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/package.json',
           appYarnLock:
-            '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/node_modules/docz-core/yarn.lock',
+            '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/node_modules/docz-core/yarn.lock',
           ownNodeModules:
-            '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/node_modules/docz-core/node_modules',
+            '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/node_modules/docz-core/node_modules',
           gatsbyConfig:
-            '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/gatsby-config.js',
+            '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/gatsby-config.js',
           gatsbyBrowser:
-            '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/gatsby-browser.js',
+            '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/gatsby-browser.js',
           gatsbyNode:
-            '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/gatsby-node.js',
+            '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/gatsby-node.js',
           gatsbySSR:
-            '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/gatsby-ssr.js',
+            '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/gatsby-ssr.js',
           importsJs:
-            '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/.docz/app/imports.js',
+            '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/.docz/app/imports.js',
           rootJs:
-            '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/.docz/app/root.jsx',
+            '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/.docz/app/root.jsx',
           indexJs:
-            '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/.docz/app/index.jsx',
+            '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/.docz/app/index.jsx',
           indexHtml:
-            '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/.docz/app/index.html',
+            '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/.docz/app/index.html',
           db:
-            '/Users/alejandromesasuarez/Winterfell/_Hooks/jam3-hooks/docs/.docz/app/db.json',
+            '/Users/alejandromesasuarez/Winterfell/react-hooks/docs/.docz/app/db.json',
         },
       },
     },
