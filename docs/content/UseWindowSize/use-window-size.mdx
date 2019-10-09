@@ -8,7 +8,23 @@ import WindowSize from "./use-window-size";
 
 # use-window-size
 
-Hook Description
+**Description**
+
+Detects window size resize
+
+**Props**
+
+- Debounce (ms)
+
+**Returns**
+
+- { innerWidth, innerHeight }
+
+```js
+const debounce = 200;
+const { innerWidth, innerHeight } = useWindowSize(debounce);
+// returns window innerWidth and innerHeight
+```
 
 <Playground>
   <WindowSize />
