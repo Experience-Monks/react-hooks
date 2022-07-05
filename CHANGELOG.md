@@ -12,3 +12,7 @@
 - Added `use-scroll-progress`
 - Added `use-scroll-to-top`
 - Added `use-window-size`
+
+## 1.0.1
+
+- Update react dependencies to 17.0.2
